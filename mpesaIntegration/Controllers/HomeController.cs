@@ -29,7 +29,7 @@ public class HomeController : Controller
     var client = _clientFactory.CreateClient("mpesa");
     //This string variable contains both consumer key and consumer secret
 
-    var authString ="1:1";        
+    var authString ="6pR9SyhAQLowqAi5kI8z5soCcmsfdw2G:2bMs0Dr3RYrMzeeX";        
     //Convert the authstring to base 64DOTNET BUILD
     var encodedString =Convert.ToBase64String(System.Text.ASCIIEncoding.ASCII.GetBytes(authString));
     //url variable that contains the remaining url
